@@ -1,6 +1,6 @@
 public class Main{
     public static void main(String[]args){
-        System.out.println("Welcome java-ci-cd-lab")
+        System.out.println("Welcome java-ci-cd-lab");
 
 }
 
