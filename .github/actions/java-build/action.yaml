@@ -6,10 +6,10 @@ runs:
   using:"composite"
 
 steps:
-    -name: Compile Java
-    run: javac Main.java
-    shell: bash
+   - name: Compile Java
+     run: javac Main.java
+     shell: bash
 
-    -name: Run Java
-    run: java Main
-    shell: bash
+   - name: Run Java
+     run: java Main
+     shell: bash
